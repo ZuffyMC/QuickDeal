@@ -2,7 +2,7 @@
   <img src="assets/banner.png" alt="QuickDeal Banner" width="900">
 </p>
 
-<h1 align="center">QuickDeal v1.0</h1>
+<h1 align="center">QuickDeal Version 1.0</h1>
 
 <p align="center">
   <b>Modern AuctionHouse & Marketplace Plugin for Minecraft Servers</b>
