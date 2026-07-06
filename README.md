@@ -9,74 +9,153 @@
 </p>
 
 <p align="center">
-  Marketplace GUI • Drag & Drop Selling • Seller Ratings • Auto Backup • Fully Customizable
+  🛒 Marketplace GUI • 💰 Drag & Drop Selling • ⭐ Seller Ratings • 💾 Auto Backup • ⚙️ Fully Customizable
+</p>
+
+<p align="center">
+  <a href="https://modrinth.com/plugin/quickdeal"><b>Download on Modrinth</b></a>
 </p>
 
 ---
 
-## About QuickDeal
+## 📌 About QuickDeal
 
-**QuickDeal** is a modern Minecraft AuctionHouse plugin built to make server trading cleaner, safer, and easier to manage.
+**QuickDeal** is a modern Minecraft **AuctionHouse** plugin built to make server trading cleaner, safer, and easier to manage.
 
-Instead of opening directly into a basic item list, QuickDeal provides a marketplace-style dashboard where players can browse items, sell items with drag & drop, manage listings, view profiles, check seller ratings, and track their trading history.
+Instead of opening directly into a basic auction list, QuickDeal gives players a marketplace-style experience with a clean dashboard, player profiles, drag & drop selling, seller ratings, transaction history, expired item recovery, and admin tools.
 
-QuickDeal is designed for survival, SMP, economy, roleplay, and community servers that need a clean and professional trading system.
-
----
-
-## Highlights
-
-- Modern marketplace-style dashboard
-- Safe drag & drop item selling
-- Buy and sell confirmation menus
-- Seller rating and trust system
-- Player market profiles
-- Top seller leaderboard
-- Purchase and sales history
-- Expired item recovery
-- Pending claims for full inventories
-- Admin control panel
-- Transaction logs
-- Auto backup system
-- Fully customizable GUI
-- English and Indonesian language support
-- Vault economy support
-- PlaceholderAPI support
-- SQLite and MySQL/MariaDB storage support
+QuickDeal is designed for survival, SMP, economy, roleplay, and community servers that want a professional trading system with a customizable GUI.
 
 ---
 
-## Features
+## ✨ Highlights
 
-### Marketplace Dashboard
+* 🏪 Modern marketplace-style dashboard
+* 💰 Safe drag & drop item selling
+* 🔢 Amount selector and price editor
+* 💬 Chat-based custom price input
+* ✅ Buy and sell confirmation menus
+* 💸 Tax preview and final earning display
+* ⭐ Seller rating and trust system
+* 👤 Player market profiles with skin heads
+* 🏆 Top seller leaderboard
+* 📜 Purchase and sales history
+* 📦 Expired item recovery
+* 🎒 Pending claims for full inventories
+* 🔔 Configurable broadcasts and notifications
+* 🛠️ Admin control panel
+* 🧾 Transaction logs
+* 💾 Auto backup system
+* 🎨 Fully customizable GUI
+* 🌐 English and Indonesian language support
+* 🔌 Vault economy bridge support
+* 📊 PlaceholderAPI support
+* 🗄️ SQLite and MySQL/MariaDB storage support
+* 🖥️ Premium startup console with ASCII banner
 
-QuickDeal opens with a clean dashboard instead of a basic listing page.
+---
 
-Players can access Browse Marketplace, Sell Item, My Listings, Expired Items, Purchase History, Sales History, Player Profile, Seller Leaderboard, Rating Menu, and Help Center.
+## 💰 Drag & Drop Selling
 
-### Drag & Drop Selling
+QuickDeal includes a safe and interactive GUI-based selling system.
+
+Players can drag an item into the sell slot, adjust the item amount, set the price using GUI buttons, or type a custom price through chat input. The sell menu also shows tax preview and final earnings before the listing is confirmed.
+
+Items are safely returned when selling is cancelled, the GUI is closed, the player quits, the plugin reloads, or the plugin is disabled. If the inventory is full, the item can be saved into pending claims.
+
+---
+
+## 🔔 Notifications & Broadcasts
+
+QuickDeal includes configurable player notifications and marketplace broadcasts.
+
+Server owners can enable or disable listing broadcasts, purchase notifications, seller alerts, offline seller messages, actionbar messages, sounds, and expensive item announcements through the configuration files.
+
+---
+
+## 🛒 Marketplace Dashboard
+
+QuickDeal opens with a clean dashboard instead of a basic item list.
+
+Players can access:
+
+* Browse Marketplace
+* Sell Item
+* My Listings
+* Expired Items
+* Purchase History
+* Sales History
+* Player Profile
+* Seller Leaderboard
+* Rating Menu
+* Help Center
+
+---
+
+## 💰 Drag & Drop Selling
 
 QuickDeal includes a GUI-based selling system.
 
-Players can drag an item into the sell slot, set item amount, set price using buttons or chat input, preview tax and final earnings, then confirm or cancel safely.
+Players can drag an item into the sell slot, set the item amount, set the price using buttons or chat input, preview tax and final earnings, then confirm the listing safely.
 
 Items are safely returned when selling is cancelled, the GUI is closed, the player quits, or the plugin is disabled.
 
-### Seller Ratings
+---
 
-After a successful purchase, buyers can rate sellers. Ratings help players identify trusted sellers and improve the marketplace experience.
+## ⭐ Seller Ratings
 
-### Safe Transactions
+After a successful purchase, buyers can rate sellers.
 
-QuickDeal is designed to reduce item loss and duplication risks with transaction validation, listing state checks, cancel protection, inventory full protection, pending claims, and anti-dupe checks.
-
-### Fully Customizable
-
-Server owners can customize GUI titles, GUI size, button slots, materials, item names, lore, sounds, messages, categories, taxes, limits, backup settings, notifications, and startup console.
+Ratings help players identify trusted sellers and improve the marketplace experience. High-rated sellers can stand out more in the marketplace.
 
 ---
 
-## Commands
+## 🛡️ Safe Transactions
+
+QuickDeal is designed to reduce item loss and duplication risks.
+
+Safety features include:
+
+* Transaction validation
+* Listing state checks
+* Cancel protection
+* Inventory full protection
+* Pending claims
+* Anti-dupe checks
+* Safe item return system
+
+---
+
+## ⚙️ Fully Customizable
+
+Server owners can customize almost everything:
+
+* GUI titles
+* GUI size
+* Button slots
+* Materials
+* Item names
+* Lore
+* Sounds
+* Messages
+* Categories
+* Taxes
+* Limits
+* Backup settings
+* Notifications
+* Startup console
+
+---
+
+## 📥 Download
+
+Download QuickDeal from Modrinth:
+
+https://modrinth.com/plugin/quickdeal
+
+---
+
+## 🎮 Commands
 
 ### Player Commands
 
@@ -130,7 +209,7 @@ More details are available in [COMMANDS.md](COMMANDS.md).
 
 ---
 
-## Permissions
+## 🔐 Permissions
 
 Basic permissions:
 
@@ -152,35 +231,35 @@ More details are available in [PERMISSIONS.md](PERMISSIONS.md).
 
 ---
 
-## Requirements
+## 📦 Requirements
 
-| Requirement | Version |
-|---|---|
-| Minecraft | 1.21+ |
-| Java | 21+ |
-| Server Software | Paper / Spigot |
-| Economy | Vault-compatible economy plugin recommended |
+| Requirement     | Version                                     |
+| --------------- | ------------------------------------------- |
+| Minecraft       | 1.21+                                       |
+| Java            | 21+                                         |
+| Server Software | Paper / Spigot                              |
+| Economy         | Vault-compatible economy plugin recommended |
 
 Paper is recommended for the best experience.
 
 ---
 
-## Supported Integrations
+## 🔌 Supported Integrations
 
-- Vault
-- PlaceholderAPI
-- PlayerPoints
-- TokenManager
-- CoinsEngine
-- ItemsAdder
-- Oraxen
-- MMOItems
+* Vault
+* PlaceholderAPI
+* PlayerPoints
+* TokenManager
+* CoinsEngine
+* ItemsAdder
+* Oraxen
+* MMOItems
 
 Integrations are optional and depend on your server setup.
 
 ---
 
-## Configuration
+## 🗂️ Configuration
 
 QuickDeal generates its files inside:
 
@@ -219,14 +298,22 @@ More details are available in [CONFIGURATION.md](CONFIGURATION.md).
 
 ---
 
+## 🧩 Support
 
-## Support
+Found a bug or have a suggestion?
 
-Found a bug or have a suggestion? Please open a GitHub Issue and include your QuickDeal version, server version, Java version, economy plugin, error logs, and steps to reproduce.
+Please open a GitHub Issue and include:
+
+* QuickDeal version
+* Server version
+* Java version
+* Economy plugin
+* Error logs
+* Steps to reproduce
 
 ---
 
-## Source Code Notice
+## 📄 Source Code Notice
 
 This repository is used for QuickDeal documentation, issue tracking, and support.
 
