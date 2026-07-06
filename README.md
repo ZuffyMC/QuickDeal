@@ -219,15 +219,6 @@ More details are available in [CONFIGURATION.md](CONFIGURATION.md).
 
 ---
 
-## Screenshots
-
-Add screenshots to:
-
-```txt
-assets/screenshots/
-```
-
----
 
 ## Support
 
